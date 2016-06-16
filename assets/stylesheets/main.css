@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+TITLES WITH IMAGES
+*/
+/*
+<!--TITLE WITH IMAGE TO RIGHT-->
+*/
+.row-2{
+background-color: #00ffff
+}
+
+.grid-2{
+padding-left:30px;
+padding-right:30px;
+}
+
+.write-left-col-2-3{
+width: 66.66%;
+float:
+}
+
+.topography{
+color: black;
+font-size: 30px;
+}
+
+.image-right-col-1-3{
+width: 33.33%;
+float:
+}
+
+.Image-right{
+float:
+}
+
+/*
+<!--IMAGE WITH WRITING TO THE RIGHT-->
+*/
+.row-3{
+  background-color: #008080
+}
+.grid-3{
+  padding-left:30px;
+  padding-right:30px;
+}
+.image-left-col-1-3{}
+.write-right-col-2-3{}
+.Writing-right{
+  float:
+
+}
+.topography{
+  color: black;
+  font-size: 30px;
+}
+
+/*
+LAPTOP PIC
+*/
+.laptop img{
+  display:block;
+  height:600px;
+  width:1290px;
+  margin-bottom:20px;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+  background:
+  color:
+
+}
+
+/*
+row
+*/
+.row{
+  background-color: green;
+margin-bottom: 15px;
+text-align: center;
+height:200px;
+}
+.row,
+.col-1-3{
+padding-left: 30px;
+padding-right: 30px;
+display: inline-block;
+vertical-align: top;
+}
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+.grid,
+.col-1-3{
+padding-left: 30px;
+padding-right: 30px;
+display: inline-block;
+vertical-align: top;
+
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+a{
+  color: silver;
+}
+
+.topography h2,h5 {
+  colour:red;
+}
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform:
+}
+.btn-default {
+  border: 0;
+  background: #ff00ff;
+  padding: 11px 30px;
+  font-size: 30px;
+}
+.btn-default:hover {
+  background: #77a198;
+}
+.btn-alt {
+  border: 3px solid grey;
+  padding: 5px 15px;
+}
+.btn-alt:hover {
+  background: #008000;
+  color: #fff;
+}
+
+/*
+  ========================================
+  HEADER
+  ========================================
+*/
+.container{
+  background-color: grey;
+padding-left: 20px;
+height:70px;
+margin-top:0;
+}
+
+.primary-container{
+  float: right;
+  font-size: 50px;
+}
+
+.logo {
+  color:orange;
+  background-color: grey;
+  font-size:50px;
+  font-weight:
+  letter-spacing:
+  line-height:50px;
+}
+
+
+/*
+  ========================================
+  FOOTER
+  ========================================
+*/
+.footer {
+  color: yellow;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+  text-align: center;
+  background-color: grey;
+}
+.primary-footer small {
+  font-weight: 400;
+}
+
+/*
+BLOG POST
+*/
+.blog{
+  background-color: blue;
+margin-bottom: 15px;
+height:200px;
+}
+
+/*
+ADVERT
+*/
+.Advert{
+  text-align: center;
+  height:600px 120px;
+  font-size:20px;
+background-color: green;
+color:white;
+font-size: 30px;
+}
+
+/*
+PARAGRAPH
+*/
+.paragraph{
+  background-color: #808000
+}
+
+.head{
+  font-size: 20px;
+
+}
